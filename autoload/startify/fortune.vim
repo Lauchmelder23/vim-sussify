@@ -1,6 +1,4 @@
 scriptencoding utf-8
-
-" Function: s:get_random_offset {{{1
 function! s:get_random_offset(max) abort
   return str2nr(matchstr(reltimestr(reltime()), '\.\zs\d\+')[1:]) % a:max
 endfunction
@@ -55,7 +53,7 @@ function! startify#fortune#cowsay(...) abort
     let quote = startify#fortune#quote()
   endif
   let boxed_quote = startify#fortune#boxed(quote)
-  return boxed_quote + s:cow
+  return boxed_quote + s:amogus
 endfunction
 
 " Function: #predefined_quotes {{{1
@@ -72,6 +70,29 @@ let s:cow = [
       \ '                ||----w |',
       \ '                ||     ||',
       \ ]
+
+let s:amogus = [
+	\ '        o',
+	\ '         o    ___________',
+	\ '          o  /           \',
+	\ '            /   ______    \',
+	\ '           /   /      \    \',
+	\ '           |  (        )    \',
+	\ '          /    \______/     |',
+	\ '          |                 |',
+	\ '         /                   \',
+	\ '         |                   |',
+	\ '         |                   |',
+	\ '        /                    |',
+	\ '        |                    |',
+	\ '        |     _______        |',
+	\ '   ____/     /       \       |',
+	\ '  /          |       |       |',
+	\ '  |          /   ____/       |',
+	\ '  \_________/   /            |',
+	\ '                \         __/',
+	\ '                 \_______/'
+    \ ]
 
 let g:startify_fortune_use_unicode = &encoding == 'utf-8' && get(g:, 'startify_fortune_use_unicode')
 
