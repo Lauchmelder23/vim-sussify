@@ -35,7 +35,7 @@ documentation for further customization:
 
 ## Screenshot
 
-![Startify in action!](https://github.com/mhinz/vim-startify/blob/master/images/startify-menu.png)
+![Startify in action!](https://github.com/Lauchmelder23/vim-sussify/blob/master/images/sussify-menu.png)
 
 That's it. A sussy start screen for Vim.
 
