@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/mhinz/vim-startify.svg?branch=master)](https://travis-ci.org/mhinz/vim-startify)
-
-![vim-startify](https://raw.githubusercontent.com/mhinz/vim-startify/master/images/startify-logo.png)
-
 ---
 
 This plugin provides a start screen for Vim and Neovim.
@@ -11,7 +7,7 @@ lists to show **recently used or bookmarked files** and **persistent sessions**.
 All of this can be accessed in a **simple to use menu** that even allows to
 **open multiple entries** at once.
 
-Startify doesn't get in your way and works out-of-the-box, but provides many
+Sussify doesn't get in your way and works out-of-the-box, but provides many
 options for fine-grained customization.
 
 ---
@@ -29,7 +25,7 @@ Use your favorite plugin manager.
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
-    Plug 'mhinz/vim-startify'
+    Plug 'Lauchmelder23/vim-sussify'
 
 It works without any configuration, but you might want to look into the
 documentation for further customization:
@@ -37,17 +33,14 @@ documentation for further customization:
     :h startify
     :h startify-faq
 
-If you want to share anything with your fellow plugin users, make sure to visit
-the [wiki](https://github.com/mhinz/vim-startify/wiki).
-
 ## Screenshot
 
 ![Startify in action!](https://github.com/mhinz/vim-startify/blob/master/images/startify-menu.png)
 
-That's it. A fancy start screen for Vim.
+That's it. A sussy start screen for Vim.
 
 _(Almost all visible features enabled. Colorscheme:
-[vim-janah](https://github.com/mhinz/vim-janah).)_
+[kanagawa.nvim]([https://github.com/mhinz/vim-jana](https://github.com/rebelot/kanagawa.nvim)h).)_
 
 ## Author and Feedback
 
