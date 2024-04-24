@@ -53,7 +53,7 @@ function! startify#fortune#cowsay(...) abort
     let quote = startify#fortune#quote()
   endif
   let boxed_quote = startify#fortune#boxed(quote)
-  return boxed_quote + s:amogus
+  return boxed_quote + s:crab
 endfunction
 
 " Function: #predefined_quotes {{{1
@@ -70,6 +70,19 @@ let s:cow = [
       \ '                ||----w |',
       \ '                ||     ||',
       \ ]
+
+let s:crab = [
+		\ '              o',
+		\ '             o',
+		\ '   /\       o',
+		\ '  ( /   @ @    ()',
+		\ '   \\ __| |__  /',
+		\ '    \/   "   \/',
+		\ '   /-|       |-\',
+		\ '  / /-\     /-\ \',
+		\ '   / /-`---´-\ \',
+		\ '    /         \'
+		\ ]
 
 let s:amogus = [
 	\ '        o',
